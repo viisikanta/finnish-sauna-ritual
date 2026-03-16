@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -62,6 +63,17 @@ export default function BestSaunasPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
+      <div className="relative w-full h-[50vh] min-h-[400px] mb-10">
+        <Image
+          src="/images/lakeside-sauna-window-view.jpg"
+          alt="Finnish lakeside sauna interior with panoramic window view over a lake"
+          fill
+          priority
+          className="object-cover rounded-sm"
+          sizes="100vw"
+        />
+      </div>
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-[var(--color-warm-100)] to-[var(--color-background)] py-16 px-4">

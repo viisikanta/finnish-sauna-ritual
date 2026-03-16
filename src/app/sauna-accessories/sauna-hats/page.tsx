@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AffiliateCard } from "@/components/AffiliateCard";
@@ -26,6 +27,16 @@ export const metadata: Metadata = {
 export default function SaunaHatsPage() {
   return (
     <>
+      <div className="relative w-full h-[50vh] min-h-[400px] mb-10">
+        <Image
+          src="/images/wool-felt-sauna-hats.jpg"
+          alt="Traditional wool felt sauna hats hanging on wooden hooks"
+          fill
+          priority
+          className="object-cover rounded-sm"
+          sizes="100vw"
+        />
+      </div>
       {/* Hero */}
       <section className="bg-gradient-to-b from-[var(--color-warm-100)] to-[var(--color-background)] py-16 px-4">
         <div className="max-w-4xl mx-auto">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EmailCapture } from "@/components/EmailCapture";
 import Link from "next/link";
@@ -12,6 +13,17 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
+      <div className="relative w-full h-[50vh] min-h-[400px] mb-10">
+        <Image
+          src="/images/person-lakeside-sauna-morning.png"
+          alt="Person wrapped in linen sitting peacefully by a Finnish lakeside at sunrise"
+          fill
+          priority
+          className="object-cover rounded-sm"
+          sizes="100vw"
+        />
+      </div>
+
       <Breadcrumbs
         items={[{ label: "Home", href: "/" }, { label: "About" }]}
       />

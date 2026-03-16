@@ -1,10 +1,24 @@
 import { ContentCard } from "@/components/ContentCard";
 import { EmailCapture } from "@/components/EmailCapture";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
     <>
+      {/* Hero image */}
+      <div className="relative w-full h-[70vh] min-h-[500px]">
+        <Image
+          src="/images/modern-finnish-sauna-lake-view.jpg"
+          alt="Modern Finnish sauna interior with panoramic winter lake view"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-linen)]" />
+      </div>
+
       {/* Hero */}
       <section className="py-24 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
@@ -68,6 +82,17 @@ export default function HomePage() {
 
       {/* Divider */}
       <div className="max-w-16 mx-auto border-t border-[var(--color-steam)]" />
+
+      {/* Vihta image */}
+      <div className="relative w-full h-[400px] my-12">
+        <Image
+          src="/images/vihta-birch-whisk-lake-dock.jpg"
+          alt="Fresh birch vihta whisks on a Finnish lakeside dock"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+      </div>
 
       {/* Content hubs */}
       <section className="max-w-5xl mx-auto px-4 py-20">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AffiliateCard } from "@/components/AffiliateCard";
 import { EmailCapture } from "@/components/EmailCapture";
@@ -181,6 +182,17 @@ const giftTiers = [
 export default function SaunaGiftGuidePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <div className="relative w-full h-[50vh] min-h-[400px] mb-10">
+        <Image
+          src="/images/luxury-sauna-spa-stones.png"
+          alt="Luxurious sauna spa setting with stacked stones, towels, and birch decor"
+          fill
+          priority
+          className="object-cover rounded-sm"
+          sizes="100vw"
+        />
+      </div>
+
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },

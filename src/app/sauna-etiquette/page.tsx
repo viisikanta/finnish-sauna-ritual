@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { EmailCapture } from "@/components/EmailCapture";
@@ -23,6 +24,17 @@ export const metadata: Metadata = {
 export default function SaunaEtiquettePage() {
   return (
     <>
+      <div className="relative w-full h-[50vh] min-h-[400px] mb-10">
+        <Image
+          src="/images/finnish-sauna-loyly-steam.jpg"
+          alt="Two people enjoying löyly steam in a Finnish sauna"
+          fill
+          priority
+          className="object-cover rounded-sm"
+          sizes="100vw"
+        />
+      </div>
+
       {/* Hero */}
       <section className="bg-gradient-to-b from-[var(--color-warm-100)] to-[var(--color-background)] py-16 px-4">
         <div className="max-w-4xl mx-auto">
