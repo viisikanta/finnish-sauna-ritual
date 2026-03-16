@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lora } from "next/font/google";
+import { Inter, Noto_Serif_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
@@ -10,9 +10,10 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const lora = Lora({
-  variable: "--font-lora",
+const notoSerif = Noto_Serif_Display({
+  variable: "--font-noto-serif",
   subsets: ["latin"],
+  weight: ["300", "400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Finnish Sauna Guide",
   },
   description:
-    "Authentic Finnish sauna guides, etiquette, accessories and the best saunas worldwide. Written by a Finn.",
+    "The definitive guide to Finnish sauna culture. Etiquette, accessories, and the finest saunas worldwide. Written by a Finn.",
   keywords: [
     "finnish sauna",
     "finnish sauna guide",
@@ -73,7 +74,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`${inter.variable} ${lora.variable} antialiased`}>
+      <body className={`${inter.variable} ${notoSerif.variable} antialiased`}>
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

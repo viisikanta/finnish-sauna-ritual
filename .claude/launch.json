@@ -4,8 +4,9 @@
     {
       "name": "loyly-house",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["next", "dev", "-p", "8080"],
-      "port": 8080
+      "runtimeArgs": ["next", "dev"],
+      "port": 8080,
+      "autoPort": true
     }
   ]
 }

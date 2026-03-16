@@ -12,28 +12,29 @@ export function ContentCard({
   title,
   description,
   href,
-  emoji,
   tag,
 }: ContentCardProps) {
   return (
     <Link
       href={href}
-      className="block border border-[var(--color-steam)] rounded-lg p-6 bg-white hover:shadow-md hover:border-[var(--color-warm-300)] transition-all group"
+      className="block p-6 border-t-2 border-t-[var(--color-birch)] hover:bg-[var(--color-linen-dark)] transition-colors group"
     >
-      {emoji && <span className="text-3xl mb-3 block">{emoji}</span>}
       {tag && (
-        <span className="text-xs font-medium text-[var(--color-lake)] uppercase tracking-wide">
+        <span className="text-[10px] font-medium text-[var(--color-birch)] uppercase tracking-[0.1em]">
           {tag}
         </span>
       )}
-      <h3 className="text-lg font-bold mt-1 group-hover:text-[var(--color-cedar)] transition-colors">
+      <h3
+        className="text-lg mt-1 text-[var(--color-foreground)] group-hover:text-[var(--color-foreground)] transition-colors"
+        style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+      >
         {title}
       </h3>
-      <p className="text-sm text-[var(--color-stone)] mt-2 leading-relaxed">
+      <p className="text-[13px] text-[var(--color-stone)] mt-2 leading-relaxed">
         {description}
       </p>
-      <span className="inline-block mt-3 text-sm font-medium text-[var(--color-lake)] group-hover:underline">
-        Read more &rarr;
+      <span className="inline-block mt-3 text-[13px] text-[var(--color-lake)] group-hover:underline">
+        Read more
       </span>
     </Link>
   );

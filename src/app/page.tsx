@@ -6,131 +6,129 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[var(--color-warm-100)] to-[var(--color-background)] py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1
-            className="text-4xl md:text-5xl font-bold text-[var(--color-cedar)] mb-4"
-            style={{ fontFamily: "var(--font-serif)" }}
-          >
-            Experience Sauna the Finnish Way
-          </h1>
-          <p className="text-lg text-[var(--color-stone)] max-w-2xl mx-auto mb-8 leading-relaxed">
-            Authentic sauna guides, etiquette, accessories and the best saunas
-            worldwide. Written by a Finn who grew up with a sauna in every home.
+      <section className="py-24 md:py-32 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch)] mb-6 font-medium">
+            The definitive sauna resource
           </p>
-          <div className="flex flex-wrap justify-center gap-3">
+          <h1
+            className="text-4xl md:text-[3.5rem] text-[var(--color-foreground)] mb-6"
+            style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+          >
+            The steam should not bite.
+            <br />
+            It should embrace.
+          </h1>
+          <p className="text-base md:text-lg text-[var(--color-stone)] max-w-xl mx-auto mb-10 leading-relaxed">
+            Finnish Sauna Guide is the definitive resource for mastering sauna
+            culture. Etiquette, accessories, and the finest saunas worldwide.
+            Written by a Finn.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/sauna-etiquette/first-time"
-              className="px-6 py-3 bg-[var(--color-cedar)] text-white rounded-lg font-semibold hover:bg-[var(--color-warm-800)] transition-colors"
+              className="px-7 py-3 bg-[var(--color-birch)] text-white text-sm font-medium tracking-wide hover:bg-[var(--color-birch-dark)] transition-colors"
             >
-              First Time? Start Here
+              Begin Your First Ritual
             </Link>
             <Link
               href="/best-saunas"
-              className="px-6 py-3 border-2 border-[var(--color-cedar)] text-[var(--color-cedar)] rounded-lg font-semibold hover:bg-[var(--color-cedar)] hover:text-white transition-colors"
+              className="px-7 py-3 border border-[var(--color-steam)] text-[var(--color-foreground)] text-sm font-medium tracking-wide hover:border-[var(--color-birch)] hover:text-[var(--color-birch)] transition-colors"
             >
-              Explore Best Saunas
+              Explore the World
             </Link>
           </div>
         </div>
       </section>
 
-      {/* What is Loyly */}
-      <section className="max-w-4xl mx-auto px-4 py-16">
-        <div className="text-center mb-4">
-          <h2
-            className="text-3xl font-bold text-[var(--color-cedar)]"
-            style={{ fontFamily: "var(--font-serif)" }}
-          >
-            What is Loyly?
-          </h2>
-        </div>
-        <div className="prose max-w-3xl mx-auto text-center">
-          <p className="text-[var(--color-stone)] leading-relaxed">
-            <strong>Loyly</strong> (pronounced &quot;lur-lu&quot;) is the Finnish
-            word for the steam that rises when you throw water on hot sauna
-            stones. It is the soul of the Finnish sauna experience &mdash; that
-            moment when the heat wraps around you, the steam fills your lungs,
-            and the world outside disappears.
-          </p>
-          <p className="text-[var(--color-stone)] leading-relaxed">
-            In Finland, sauna is not a luxury. It is part of daily life. There
-            are 3.3 million saunas for 5.5 million people. We sauna to relax, to
-            think, to connect, and to heal. Finnish Sauna Guide exists to share this
-            culture with the world.
-          </p>
-        </div>
+      {/* Divider */}
+      <div className="max-w-16 mx-auto border-t border-[var(--color-steam)]" />
+
+      {/* Loyly explanation */}
+      <section className="max-w-2xl mx-auto px-4 py-20 text-center">
+        <h2
+          className="text-2xl md:text-3xl text-[var(--color-foreground)] mb-6"
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+        >
+          Loyly
+        </h2>
+        <p className="text-xs uppercase tracking-[0.15em] text-[var(--color-birch)] mb-6 font-medium">
+          / lur-lu / &mdash; Finnish
+        </p>
+        <p className="text-[var(--color-stone)] leading-[1.9] mb-4">
+          The steam that rises when water meets hot stones. In Finland,
+          it is not just a word. It is the soul of the sauna &mdash; the moment
+          when heat wraps around you and the world outside disappears.
+        </p>
+        <p className="text-[var(--color-stone)] leading-[1.9]">
+          3.3 million saunas. 5.5 million people. In Finland, sauna is not
+          wellness. It is not a trend. It is simply how we live.
+        </p>
       </section>
 
+      {/* Divider */}
+      <div className="max-w-16 mx-auto border-t border-[var(--color-steam)]" />
+
       {/* Content hubs */}
-      <section className="max-w-6xl mx-auto px-4 pb-16">
+      <section className="max-w-5xl mx-auto px-4 py-20">
+        <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch)] text-center mb-3 font-medium">
+          Guides
+        </p>
         <h2
-          className="text-2xl font-bold text-[var(--color-cedar)] text-center mb-8"
-          style={{ fontFamily: "var(--font-serif)" }}
+          className="text-2xl md:text-3xl text-[var(--color-foreground)] text-center mb-12"
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
         >
-          Explore Our Guides
+          Knowledge, distilled
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <ContentCard
-            emoji="&#x1f9d6;"
             tag="Etiquette"
-            title="Sauna Etiquette Guide"
-            description="Everything you need to know about how to behave in a sauna, from nudity norms to loyly etiquette. Country-specific guides included."
+            title="Sauna Etiquette"
+            description="How to behave in a sauna. Nudity norms, loyly etiquette, and country-specific customs explained with clarity."
             href="/sauna-etiquette"
           />
           <ContentCard
-            emoji="&#x1f9e2;"
             tag="Accessories"
-            title="Essential Sauna Accessories"
-            description="From sauna hats to birch whisks, buckets to thermometers. Our tested recommendations for the perfect sauna setup."
+            title="Essential Accessories"
+            description="Sauna hats, birch whisks, buckets, and thermometers. Considered recommendations for a proper setup."
             href="/sauna-accessories"
           />
           <ContentCard
-            emoji="&#x1f381;"
-            tag="Gift Ideas"
-            title="Sauna Gift Guide"
-            description="The best sauna gifts for every budget. Perfect for birthdays, Christmas, housewarmings, or anyone who loves the heat."
+            tag="Gifts"
+            title="Gift Guide"
+            description="Curated sauna gifts at every price point. For birthdays, housewarmings, or anyone who understands the ritual."
             href="/sauna-gift-guide"
           />
           <ContentCard
-            emoji="&#x1f30d;"
             tag="Travel"
             title="Best Saunas in the World"
-            description="From Finnish smoke saunas to German Aufguss temples to Icelandic geothermal lagoons. Our curated guide to the world's finest."
+            description="Finnish smoke saunas, German Aufguss temples, Icelandic geothermal lagoons. The finest experiences, mapped."
             href="/best-saunas"
           />
           <ContentCard
-            emoji="&#x1f1e9;&#x1f1ea;"
-            tag="Country Guide"
+            tag="Germany"
             title="German Sauna Culture"
-            description="Strict nudity rules, the art of Aufguss, and how German saunas differ from Finnish ones. Essential reading for first-timers."
+            description="Mandatory nudity, the art of Aufguss, and how German saunas differ from Finnish ones. A considered guide."
             href="/sauna-etiquette/germany"
           />
           <ContentCard
-            emoji="&#x2744;&#xfe0f;"
-            tag="Finnish Culture"
+            tag="First Time"
             title="Your First Finnish Sauna"
-            description="Nervous about your first sauna? Here is everything you need to know, from a Finn who has done this thousands of times."
+            description="Everything you need to know, from someone who has done this thousands of times. No anxiety, just clarity."
             href="/sauna-etiquette/first-time"
           />
         </div>
       </section>
 
       {/* Email capture */}
-      <section className="max-w-4xl mx-auto px-4 pb-16">
+      <section className="max-w-3xl mx-auto px-4 pb-20">
         <EmailCapture />
       </section>
 
-      {/* Finnish sauna facts */}
-      <section className="bg-[var(--color-warm-100)] py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2
-            className="text-2xl font-bold text-[var(--color-cedar)] text-center mb-8"
-            style={{ fontFamily: "var(--font-serif)" }}
-          >
-            Finnish Sauna by the Numbers
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      {/* Stats */}
+      <section className="border-y border-[var(--color-steam)] py-16 px-4">
+        <div className="max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
               { number: "3.3M", label: "Saunas in Finland" },
               { number: "5.5M", label: "People in Finland" },
@@ -138,10 +136,13 @@ export default function HomePage() {
               { number: "80\u2013100\u00B0C", label: "Ideal temperature" },
             ].map((stat) => (
               <div key={stat.label}>
-                <p className="text-3xl font-bold text-[var(--color-cedar)]">
+                <p
+                  className="text-2xl md:text-3xl text-[var(--color-foreground)]"
+                  style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+                >
                   {stat.number}
                 </p>
-                <p className="text-sm text-[var(--color-stone)] mt-1">
+                <p className="text-xs uppercase tracking-[0.1em] text-[var(--color-stone-light)] mt-2">
                   {stat.label}
                 </p>
               </div>
@@ -150,25 +151,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why trust us */}
-      <section className="max-w-4xl mx-auto px-4 py-16 text-center">
+      {/* Source advantage */}
+      <section className="max-w-2xl mx-auto px-4 py-20 text-center">
+        <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch)] mb-3 font-medium">
+          The source
+        </p>
         <h2
-          className="text-2xl font-bold text-[var(--color-cedar)] mb-4"
-          style={{ fontFamily: "var(--font-serif)" }}
+          className="text-2xl md:text-3xl text-[var(--color-foreground)] mb-6"
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
         >
-          Why Finnish Sauna Guide?
+          We are not selling hardware.
+          <br />
+          We are sharing the soul.
         </h2>
-        <p className="text-[var(--color-stone)] max-w-2xl mx-auto mb-8 leading-relaxed">
-          Most sauna websites are written by people who bought an infrared box
-          last year. Finnish Sauna Guide is written by a Finn who grew up with a sauna
-          in every home, at every summer cottage, and in every apartment
-          building. This is our culture, and we are sharing it with you.
+        <p className="text-[var(--color-stone)] leading-[1.9] mb-8">
+          Most sauna content is written by people who bought an infrared box
+          last year. Finnish Sauna Guide is written by a Finn who grew up with
+          sauna in every home, at every summer cottage, in every apartment
+          building. We provide the ritual for your sauna &mdash; the culture
+          that turns a hot room into a practice.
         </p>
         <Link
           href="/about"
-          className="text-[var(--color-lake)] font-semibold hover:underline"
+          className="text-sm text-[var(--color-lake)] font-medium underline underline-offset-4 decoration-[var(--color-steam)] hover:decoration-[var(--color-lake)] transition-colors"
         >
-          Read our story &rarr;
+          About Finnish Sauna Guide
         </Link>
       </section>
 
@@ -182,7 +189,7 @@ export default function HomePage() {
             name: "Finnish Sauna Guide",
             url: "https://finnishsaunaguide.com",
             description:
-              "Authentic Finnish sauna guides, etiquette, accessories and the best saunas worldwide.",
+              "The definitive guide to Finnish sauna culture. Etiquette, accessories, and the finest saunas worldwide.",
           }),
         }}
       />

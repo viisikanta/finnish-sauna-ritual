@@ -23,15 +23,15 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <nav aria-label="Breadcrumb" className="text-sm text-[var(--color-stone)] mb-6">
+      <nav aria-label="Breadcrumb" className="text-xs uppercase tracking-[0.08em] text-[var(--color-stone-light)] mb-6">
         <ol className="flex flex-wrap items-center gap-1">
           {items.map((item, index) => (
             <li key={index} className="flex items-center gap-1">
-              {index > 0 && <span>/</span>}
+              {index > 0 && <span className="text-[var(--color-stone-light)]">/</span>}
               {item.href ? (
                 <Link
                   href={item.href}
-                  className="hover:text-[var(--color-cedar)] transition-colors"
+                  className="hover:text-[var(--color-foreground)] transition-colors"
                 >
                   {item.label}
                 </Link>

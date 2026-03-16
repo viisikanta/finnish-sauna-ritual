@@ -38,14 +38,13 @@ export function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
-    <header className="bg-white border-b border-[var(--color-steam)]">
+    <header className="bg-[var(--color-linen)] border-b border-[var(--color-steam)]">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl">🧖</span>
+        <div className="flex items-center justify-between h-20">
+          <Link href="/" className="flex items-center">
             <span
-              className="text-xl font-bold text-[var(--color-cedar)]"
-              style={{ fontFamily: "var(--font-serif)" }}
+              className="text-xl text-[var(--color-foreground)]"
+              style={{ fontFamily: "var(--font-serif)", fontWeight: 400 }}
             >
               Finnish Sauna Guide
             </span>
@@ -64,17 +63,17 @@ export function Header() {
               >
                 <Link
                   href={item.href}
-                  className="px-3 py-2 text-sm font-medium text-[var(--color-foreground)] hover:text-[var(--color-cedar)] rounded-md transition-colors"
+                  className="px-3 py-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[var(--color-stone)] hover:text-[var(--color-foreground)] transition-colors"
                 >
                   {item.name}
                 </Link>
                 {item.children && openDropdown === item.name && (
-                  <div className="absolute left-0 top-full mt-0 w-56 bg-white rounded-lg shadow-lg border border-[var(--color-steam)] py-2 z-50">
+                  <div className="absolute left-0 top-full mt-0 w-56 bg-[var(--color-linen)] shadow-sm border border-[var(--color-steam)] border-t-2 border-t-[var(--color-birch)] z-50">
                     {item.children.map((child) => (
                       <Link
                         key={child.name}
                         href={child.href}
-                        className="block px-4 py-2 text-sm text-[var(--color-foreground)] hover:bg-[var(--color-warm-50)] hover:text-[var(--color-cedar)]"
+                        className="block px-4 py-2.5 text-[13px] text-[var(--color-stone)] hover:bg-[var(--color-linen-dark)] hover:text-[var(--color-foreground)] transition-colors"
                       >
                         {child.name}
                       </Link>
@@ -123,7 +122,7 @@ export function Header() {
               <div key={item.name}>
                 <Link
                   href={item.href}
-                  className="block px-3 py-2 text-base font-medium text-[var(--color-foreground)] hover:text-[var(--color-cedar)]"
+                  className="block px-3 py-2 text-[13px] font-medium uppercase tracking-[0.08em] text-[var(--color-stone)] hover:text-[var(--color-foreground)]"
                   onClick={() => setMobileOpen(false)}
                 >
                   {item.name}
@@ -132,7 +131,7 @@ export function Header() {
                   <Link
                     key={child.name}
                     href={child.href}
-                    className="block pl-8 py-1.5 text-sm text-[var(--color-stone)] hover:text-[var(--color-cedar)]"
+                    className="block pl-8 py-1.5 text-[13px] text-[var(--color-stone-light)] hover:text-[var(--color-foreground)]"
                     onClick={() => setMobileOpen(false)}
                   >
                     {child.name}
