@@ -6,8 +6,8 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <>
-      {/* Hero image */}
-      <div className="relative w-full h-[70vh] min-h-[500px]">
+      {/* Hero — image + text combined */}
+      <section className="relative w-full min-h-[85vh] flex items-end">
         <Image
           src="/images/modern-finnish-sauna-lake-view.jpg"
           alt="Modern Finnish sauna interior with panoramic winter lake view"
@@ -17,40 +17,38 @@ export default function HomePage() {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-linen)]" />
-      </div>
-
-      {/* Hero */}
-      <section className="py-24 md:py-32 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch)] mb-6 font-medium">
-            The definitive sauna resource
-          </p>
-          <h1
-            className="text-4xl md:text-[3.5rem] text-[var(--color-foreground)] mb-6"
-            style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
-          >
-            The steam should not bite.
-            <br />
-            It should embrace.
-          </h1>
-          <p className="text-base md:text-lg text-[var(--color-stone)] max-w-xl mx-auto mb-10 leading-relaxed">
-            Finnish Sauna Guide is the definitive resource for mastering sauna
-            culture. Etiquette, accessories, and the finest saunas worldwide.
-            Written by a Finn.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/sauna-etiquette/first-time"
-              className="px-7 py-3 bg-[var(--color-birch)] text-white text-sm font-medium tracking-wide hover:bg-[var(--color-birch-dark)] transition-colors"
+        <div className="relative z-10 w-full pb-12 pt-32 px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch)] mb-6 font-medium">
+              The definitive sauna resource
+            </p>
+            <h1
+              className="text-4xl md:text-[3.5rem] text-[var(--color-foreground)] mb-6"
+              style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
             >
-              Begin Your First Ritual
-            </Link>
-            <Link
-              href="/best-saunas"
-              className="px-7 py-3 border border-[var(--color-steam)] text-[var(--color-foreground)] text-sm font-medium tracking-wide hover:border-[var(--color-birch)] hover:text-[var(--color-birch)] transition-colors"
-            >
-              Explore the World
-            </Link>
+              The steam should not bite.
+              <br />
+              It should embrace.
+            </h1>
+            <p className="text-base md:text-lg text-[var(--color-stone)] max-w-xl mx-auto mb-10 leading-relaxed">
+              Finnish Sauna Guide is the definitive resource for mastering sauna
+              culture. Etiquette, accessories, and the finest saunas worldwide.
+              Written by a Finn.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link
+                href="/sauna-etiquette/first-time"
+                className="px-7 py-3 bg-[var(--color-birch)] text-white text-sm font-medium tracking-wide hover:bg-[var(--color-birch-dark)] transition-colors"
+              >
+                Begin Your First Ritual
+              </Link>
+              <Link
+                href="/best-saunas"
+                className="px-7 py-3 border border-[var(--color-steam)] text-[var(--color-foreground)] text-sm font-medium tracking-wide hover:border-[var(--color-birch)] hover:text-[var(--color-birch)] transition-colors"
+              >
+                Explore the World
+              </Link>
+            </div>
           </div>
         </div>
       </section>
