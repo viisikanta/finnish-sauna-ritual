@@ -16,21 +16,23 @@ export default function HomePage() {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-linen)]" />
-        <div className="relative z-10 w-full pb-12 pt-32 px-4">
+        {/* Dark overlay for text readability, fading to linen at bottom */}
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-b from-transparent to-[var(--color-linen)]" />
+        <div className="relative z-10 w-full pb-16 pt-32 px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch)] mb-6 font-medium">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-birch-light)] mb-6 font-medium">
               The definitive sauna resource
             </p>
             <h1
-              className="text-4xl md:text-[3.5rem] text-[var(--color-foreground)] mb-6"
+              className="text-4xl md:text-[3.5rem] text-white mb-6 drop-shadow-sm"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
             >
               The steam should not bite.
               <br />
               It should embrace.
             </h1>
-            <p className="text-base md:text-lg text-[var(--color-stone)] max-w-xl mx-auto mb-10 leading-relaxed">
+            <p className="text-base md:text-lg text-white/80 max-w-xl mx-auto mb-10 leading-relaxed">
               Finnish Sauna Guide is the definitive resource for mastering sauna
               culture. Etiquette, accessories, and the finest saunas worldwide.
               Written by a Finn.
@@ -44,7 +46,7 @@ export default function HomePage() {
               </Link>
               <Link
                 href="/best-saunas"
-                className="px-7 py-3 border border-[var(--color-steam)] text-[var(--color-foreground)] text-sm font-medium tracking-wide hover:border-[var(--color-birch)] hover:text-[var(--color-birch)] transition-colors"
+                className="px-7 py-3 border border-white/40 text-white text-sm font-medium tracking-wide hover:border-[var(--color-birch)] hover:text-[var(--color-birch)] transition-colors"
               >
                 Explore the World
               </Link>
