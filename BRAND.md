@@ -221,14 +221,91 @@ CTA text: "Check Price" — not "Buy Now" or "Shop Now". Keep it low-pressure.
 
 ---
 
-## Imagery Guidelines
+## Photography
 
-- Minimalist modern architecture: cabins, saunas, lake houses
-- Raw textures: wood grain, stone, linen fabric
-- Atmospheric: steam, soft light, lake reflections
-- Color-graded warm and muted (match the palette)
-- Never stock-photo-sterile. Always grounded and real.
-- Delicate line art icons where needed (hourglass, water droplet, birch branch)
+### Direction
+
+The visual language is **grounded, atmospheric, and Nordic**. Every image should feel like a quiet moment — not a stock photo, not a lifestyle ad. Think: the light that comes through a sauna window at dusk, not a model smiling at the camera.
+
+**Categories we use:**
+- **Interiors** — Real saunas (smoke saunas, modern dark wood, light wood, barrel saunas)
+- **Ritual moments** — Löyly steam, water on stones, vihta in use, cooling off
+- **Textures** — Birch bark, linen fabric, sauna stones, wood grain
+- **Nature** — Finnish lakescapes, birch forests, winter scenes, misty mornings
+- **Objects** — Sauna hats, buckets, ladles, vihta on a dock
+- **People** — Contemplative, not performative. Wrapped in linen, sitting quietly, looking at the lake
+
+**Never:**
+- Stock photo poses (people smiling at camera, thumbs up)
+- Overly saturated or neon-lit spa photos
+- Infrared sauna imagery (this is a Finnish sauna site)
+- Gym/fitness aesthetic
+- Before/after health imagery
+
+**Technical rules:**
+- Always use Next.js `<Image>` component (automatic WebP/AVIF, lazy loading, srcset)
+- Hero images: `fill`, `priority`, `sizes="100vw"`, `object-cover rounded-sm`
+- Full-width heroes: `h-[50vh] min-h-[400px]` (homepage: `h-[70vh] min-h-[500px]`)
+- Descriptive, SEO-friendly filenames (e.g., `wool-felt-sauna-hats.jpg`)
+- Descriptive `alt` text — keyword-rich but natural
+
+### Photo Library
+
+All images are in `/public/images/`. Here is the complete inventory and where each is used:
+
+#### Hero Images (assigned to pages)
+
+| Filename | Subject | Used On |
+|----------|---------|---------|
+| `modern-finnish-sauna-lake-view.jpg` | Dark modern sauna interior, panoramic winter lake through window | **Homepage** (hero) |
+| `vihta-birch-whisk-lake-dock.jpg` | Two fresh vihta on weathered lake dock, Finnish forest backdrop | **Homepage** (mid-page break) |
+| `finnish-sauna-loyly-steam.jpg` | Two people in steamy sauna, löyly moment | **Sauna Etiquette** hub |
+| `man-relaxing-finnish-sauna.jpg` | Man sitting peacefully in warm sauna, golden light | **First Time Guide** |
+| `barrel-sauna-winter-snow.jpg` | Barrel sauna outdoors in heavy snow | **German Sauna Culture** + **Best Saunas Germany** |
+| `sauna-interior-vihta-bucket.jpg` | Clean sauna through window, vihta and bucket visible | **Accessories** hub |
+| `wool-felt-sauna-hats.jpg` | Row of wool felt sauna hats hanging on wooden hooks | **Sauna Hats** |
+| `wooden-ladle-loyly-steam.png` | Hand pouring water with wooden ladle, steam rising from stones | **Bucket & Ladle** |
+| `luxury-sauna-spa-stones.png` | Minimalist spa sauna with stacked stones, birch branch, towels | **Gift Guide** |
+| `lakeside-sauna-window-view.jpg` | Sauna with large window overlooking lake and forest | **Best Saunas** hub |
+| `traditional-smoke-sauna-interior.png` | Smoke sauna interior, light beams through window, stone walls | **Best Saunas Finland** |
+| `frost-birch-trees-winter.jpg` | Frost-covered birch trees against blue winter sky | **Best Saunas Iceland** |
+| `steam-rising-sauna-stones.jpg` | Steam rising from hot sauna stones, atmospheric close-up | **FAQ** |
+| `finnish-birch-forest.jpg` | Sunlight filtering through tall Finnish birch forest | **Glossary** |
+| `person-lakeside-sauna-morning.png` | Person in linen wrap sitting by lake at sunrise, contemplative | **About** |
+
+#### Unused / Available for Future Pages
+
+| Filename | Subject | Good For |
+|----------|---------|----------|
+| `minimalist-sauna-cabin-lakeside.png` | Dark wood cabin on rock by misty lake, dusk | Article hero, social media, homepage alternate |
+| `luxury-sauna-spa-towels.png` | Spa sauna with birch tree, stacked stones, bamboo heater | Gift guide, spa content |
+| `person-misty-lake-sauna.png` | Person wrapped in blanket at doorway looking at misty lake | About alternate, winter swimming article |
+| `pouring-water-sauna-stones.jpg` | Close-up of ladle pouring water on stones, person blurred | Löyly article, how-to content |
+| `woman-sauna-hat-vihta.jpg` | Woman wearing sauna hat, holding vihta in sauna | Sauna hats alternate, women's guide |
+| `sauna-stones-heater-interior.jpg` | HUUM heater with bucket and ladle, dark sauna interior | Product review, heater guide |
+| `sauna-stones-closeup-moody.jpg` | Dramatic close-up of sauna stones, dark and moody | Blog post hero, texture element |
+| `modern-wood-burning-sauna.jpg` | Light wood modern sauna with wood-burning stove, big window | Home sauna guide, modern sauna article |
+| `modern-light-wood-sauna.jpg` | Clean, bright light wood sauna interior with LED lighting | Modern sauna review, installation guide |
+| `stacked-birch-firewood.jpg` | Neatly stacked birch firewood, texture shot | Wood-burning sauna article, texture element |
+| `white-birch-trunks.jpg` | White birch tree trunks, forest texture, high contrast | Background/divider, nature content |
+| `birch-trunks-autumn.jpg` | Birch trunks with autumn yellow leaves | Seasonal content, autumn sauna article |
+| `birch-leaves-branch.jpg` | Close-up birch leaf branch, fresh green | Vihta making guide, nature content |
+| `fresh-vihta-birch-whisk.png` | Fresh green vihta in wooden bucket, close-up | Vihta guide, accessories content |
+| `finnish-linen-texture.png` | Close-up natural linen fabric texture | Background texture, product photography |
+
+### Sources
+
+- **Unsplash** — huum, al-butler, joakim-finell, julia-elliot, santtu-perkio, glib-albovsky, juliana-marx, josephali-music, clay-banks, patrick-hendry, peng-chen, sofia-holmberg, irina-sergeeva (free commercial licence)
+- **AI-generated** — editorial-style images for specific compositions not available in stock (cabin, spa interiors, person portraits, texture close-ups)
+
+### Delicate Line Art Icons
+
+Where photography is too heavy, use simple line art icons:
+- Hourglass (time/patience)
+- Water droplet (löyly)
+- Birch branch (vihta)
+- Thermometer (temperature)
+- Snowflake (avanto/cold plunge)
 
 ---
 
@@ -273,36 +350,44 @@ Every content page should include:
 ## File Structure
 
 ```
-src/
-  app/
-    globals.css              ← Design system (all CSS variables)
-    layout.tsx               ← Root layout (fonts, GA4, Header/Footer)
-    page.tsx                 ← Homepage
-    about/page.tsx
-    sauna-etiquette/
-      page.tsx               ← Hub
-      first-time/page.tsx
-      germany/page.tsx
-    sauna-accessories/
-      page.tsx               ← Hub
-      sauna-hats/page.tsx
-      bucket-and-ladle/page.tsx
-    sauna-gift-guide/page.tsx
-    best-saunas/
-      page.tsx               ← Hub
-      finland/page.tsx
-      germany/page.tsx
-      iceland/page.tsx
-    sitemap.ts
-    robots.ts
-    api/subscribe/route.ts   ← Resend email
-  components/
-    Header.tsx
-    Footer.tsx
-    Breadcrumbs.tsx
-    ContentCard.tsx
-    AffiliateCard.tsx
-    EmailCapture.tsx
+/
+  BRAND.md                   ← This file — visual identity & photography
+  COPYWRITING.md             ← Voice, tone rules, scoring, content patterns
+  SEO-AUDIT.md               ← Methodology, checklist, keyword targets
+  public/
+    images/                  ← 30 photos (see Photography section above)
+  src/
+    app/
+      globals.css            ← Design system (all CSS variables)
+      layout.tsx             ← Root layout (fonts, GA4, Header/Footer)
+      page.tsx               ← Homepage
+      about/page.tsx
+      faq/page.tsx           ← FAQ (FAQPage schema)
+      glossary/page.tsx      ← Glossary (DefinedTermSet schema)
+      sauna-etiquette/
+        page.tsx             ← Hub
+        first-time/page.tsx
+        germany/page.tsx
+      sauna-accessories/
+        page.tsx             ← Hub
+        sauna-hats/page.tsx
+        bucket-and-ladle/page.tsx
+      sauna-gift-guide/page.tsx
+      best-saunas/
+        page.tsx             ← Hub
+        finland/page.tsx
+        germany/page.tsx
+        iceland/page.tsx
+      sitemap.ts
+      robots.ts
+      api/subscribe/route.ts ← Resend email
+    components/
+      Header.tsx
+      Footer.tsx
+      Breadcrumbs.tsx
+      ContentCard.tsx
+      AffiliateCard.tsx
+      EmailCapture.tsx
 ```
 
 ---
