@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "sauna bucket and ladle",
     "wooden sauna bucket",
     "copper sauna bucket",
-    "loyly bucket",
+    "löyly bucket",
     "sauna water bucket",
     "best sauna bucket",
     "finnish sauna bucket",
@@ -45,7 +45,7 @@ export default function BucketAndLadlePage() {
           <p className="text-lg text-[var(--color-stone)] max-w-3xl leading-relaxed">
             The <strong>kiulu</strong> (bucket) and <strong>kauha</strong>{" "}
             (ladle) are the most essential tools in any sauna. Without them,
-            there is no loyly. Here is everything you need to know about
+            there is no löyly. Here is everything you need to know about
             choosing, using, and caring for the right set.
           </p>
         </div>
@@ -87,11 +87,11 @@ export default function BucketAndLadlePage() {
             Why the Bucket and Ladle Matter
           </h2>
           <p>
-            <strong>Loyly is everything.</strong> The word <em>loyly</em>{" "}
+            <strong>Löyly is everything.</strong> The word <em>löyly</em>{" "}
             refers to the steam that rises from the sauna stones when you throw
             water on them. It is not just steam &mdash; it is a momentary wave
             of intense, humid heat that wraps around your body. Controlling the
-            loyly is the art of sauna, and your bucket and ladle are the tools
+            löyly is the art of sauna, and your bucket and ladle are the tools
             that give you that control.
           </p>
           <p>
@@ -238,7 +238,7 @@ export default function BucketAndLadlePage() {
           <p>
             A <strong>7-litre bucket</strong> is the better choice if you
             regularly sauna with family or friends, or if you like very long
-            sessions with lots of loyly. It saves you the trip to refill and
+            sessions with lots of löyly. It saves you the trip to refill and
             means the water stays warmer throughout (cold water on hot stones
             creates better steam than room-temperature water). Public saunas
             almost always use 7-litre buckets or larger.

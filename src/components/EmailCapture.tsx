@@ -47,7 +47,7 @@ export function EmailCapture({
       <div className="border-t border-b border-[var(--color-steam)] py-12 text-center my-12">
         <p
           className="text-xl text-[var(--color-foreground)]"
-          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
         >
           Welcome. Check your inbox.
         </p>
@@ -60,7 +60,7 @@ export function EmailCapture({
       <div className="max-w-lg mx-auto text-center">
         <h3
           className="text-2xl text-[var(--color-foreground)] mb-3"
-          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
         >
           {title}
         </h3>

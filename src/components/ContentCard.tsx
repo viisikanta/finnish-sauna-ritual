@@ -26,7 +26,7 @@ export function ContentCard({
       )}
       <h3
         className="text-lg mt-1 text-[var(--color-foreground)] group-hover:text-[var(--color-foreground)] transition-colors"
-        style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+        style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
       >
         {title}
       </h3>

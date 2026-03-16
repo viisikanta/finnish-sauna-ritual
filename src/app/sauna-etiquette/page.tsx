@@ -7,7 +7,7 @@ import { AdSlot } from "@/components/AdSlot";
 export const metadata: Metadata = {
   title: "Sauna Etiquette Guide — Rules, Tips & Country Guides",
   description:
-    "Complete sauna etiquette guide covering universal rules, nudity norms, loyly etiquette and country-specific guides for Finland, Germany, Japan and more. Written by a Finn.",
+    "Complete sauna etiquette guide covering universal rules, nudity norms, löyly etiquette and country-specific guides for Finland, Germany, Japan and more. Written by a Finn.",
   keywords: [
     "sauna etiquette",
     "sauna rules",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "sauna nudity",
     "sauna dos and donts",
     "german sauna etiquette",
-    "loyly etiquette",
+    "löyly etiquette",
   ],
 };
 
@@ -76,8 +76,8 @@ export default function SaunaEtiquettePage() {
             },
             {
               number: "3",
-              title: "Ask before throwing loyly",
-              text: "Loyly is the steam that rises when water hits the hot stones. It dramatically increases the perceived heat. Always ask others before throwing water — a quick \"Saako heittaa?\" (May I throw?) in Finland, or just a nod and gesture elsewhere.",
+              title: "Ask before throwing löyly",
+              text: "Löyly is the steam that rises when water hits the hot stones. It dramatically increases the perceived heat. Always ask others before throwing water — a quick \"Saako heittaa?\" (May I throw?) in Finland, or just a nod and gesture elsewhere.",
             },
             {
               number: "4",
@@ -156,7 +156,7 @@ export default function SaunaEtiquettePage() {
             emoji="&#x1f1eb;&#x1f1ee;"
             tag="Finland"
             title="Your First Finnish Sauna"
-            description="The complete guide to your first time in a Finnish sauna. Nudity norms, loyly etiquette, the birch whisk, cooling down, and everything a first-timer needs to know."
+            description="The complete guide to your first time in a Finnish sauna. Nudity norms, löyly etiquette, the birch whisk, cooling down, and everything a first-timer needs to know."
             href="/sauna-etiquette/first-time"
           />
           <ContentCard
@@ -288,7 +288,7 @@ export default function SaunaEtiquettePage() {
             "@type": "CollectionPage",
             name: "Sauna Etiquette Guide",
             description:
-              "Complete sauna etiquette guide covering universal rules, nudity norms, loyly etiquette and country-specific guides.",
+              "Complete sauna etiquette guide covering universal rules, nudity norms, löyly etiquette and country-specific guides.",
             url: "https://finnishsaunaguide.com/sauna-etiquette",
             isPartOf: {
               "@type": "WebSite",

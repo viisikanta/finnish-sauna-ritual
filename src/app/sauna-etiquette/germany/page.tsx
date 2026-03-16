@@ -87,7 +87,7 @@ export default function GermanySaunaPage() {
           <h3>The Aufguss Ritual</h3>
           <p>
             This is where German sauna culture truly distinguishes itself. In
-            Finland, throwing loyly is a casual, communal act &mdash; anyone can
+            Finland, throwing löyly is a casual, communal act &mdash; anyone can
             scoop water onto the stones whenever they feel like it. In Germany,
             the <em>Aufguss</em> is a <strong>structured performance</strong>{" "}
             led by a trained <em>Saunameister</em> (sauna master).
@@ -469,7 +469,7 @@ export default function GermanySaunaPage() {
               </tr>
               <tr>
                 <td>Steam ritual</td>
-                <td>Casual, anyone can throw loyly</td>
+                <td>Casual, anyone can throw löyly</td>
                 <td>Structured Aufguss by Saunameister</td>
               </tr>
               <tr>

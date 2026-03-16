@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/best-saunas/finland", priority: 0.8, changeFrequency: "monthly" as const },
     { url: "/best-saunas/germany", priority: 0.8, changeFrequency: "monthly" as const },
     { url: "/best-saunas/iceland", priority: 0.8, changeFrequency: "monthly" as const },
+    { url: "/faq", priority: 0.8, changeFrequency: "monthly" as const },
+    { url: "/glossary", priority: 0.7, changeFrequency: "monthly" as const },
     { url: "/about", priority: 0.5, changeFrequency: "yearly" as const },
   ];
 

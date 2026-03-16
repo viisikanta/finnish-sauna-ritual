@@ -30,6 +30,8 @@ const navigation = [
       { name: "Iceland", href: "/best-saunas/iceland" },
     ],
   },
+  { name: "FAQ", href: "/faq" },
+  { name: "Glossary", href: "/glossary" },
   { name: "About", href: "/about" },
 ];
 

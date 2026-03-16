@@ -55,7 +55,7 @@ const giftTiers = [
       {
         name: "Sauna Essential Oils Set",
         description:
-          "A set of sauna-grade essential oils: eucalyptus for breathing, birch tar for authenticity, pine for forest vibes, and lavender for relaxation. Add a few drops to your loyly water.",
+          "A set of sauna-grade essential oils: eucalyptus for breathing, birch tar for authenticity, pine for forest vibes, and lavender for relaxation. Add a few drops to your löyly water.",
         price: "$15–25",
         features: [
           "4 scents: eucalyptus, birch, pine, lavender",
@@ -88,7 +88,7 @@ const giftTiers = [
       {
         name: "Sauna Thermometer & Hygrometer Combo",
         description:
-          "A proper sauna has both — the thermometer for temperature and the hygrometer for humidity. Together they tell the full story of your loyly. This wooden combo unit mounts on the wall.",
+          "A proper sauna has both — the thermometer for temperature and the hygrometer for humidity. Together they tell the full story of your löyly. This wooden combo unit mounts on the wall.",
         price: "$25–40",
         features: [
           "Measures both temperature and humidity",
@@ -153,12 +153,12 @@ const giftTiers = [
       {
         name: "Harvia Electric Sauna Heater",
         description:
-          "Harvia is the Finnish sauna heater brand, used in homes and public saunas across Finland. Their compact electric heaters are perfect for home saunas and produce excellent loyly with quality stones.",
+          "Harvia is the Finnish sauna heater brand, used in homes and public saunas across Finland. Their compact electric heaters are perfect for home saunas and produce excellent löyly with quality stones.",
         price: "$300–800",
         features: [
           "Finnish engineering since 1950",
           "Multiple sizes for home saunas",
-          "Excellent stone capacity for loyly",
+          "Excellent stone capacity for löyly",
         ],
         affiliateUrl: "https://www.amazon.com/s?k=harvia+sauna+heater&tag=viisikanta-20",
       },

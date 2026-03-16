@@ -81,7 +81,7 @@ export default function SaunaAccessoriesPage() {
             emoji="&#x1faa3;"
             tag="Complete Guide"
             title="Bucket &amp; Ladle"
-            description="The heart of loyly. How to choose the right kiulu and kauha: materials, sizes, and care tips from a Finn."
+            description="The heart of löyly. How to choose the right kiulu and kauha: materials, sizes, and care tips from a Finn."
             href="/sauna-accessories/bucket-and-ladle"
           />
         </div>
@@ -101,7 +101,7 @@ export default function SaunaAccessoriesPage() {
             ladle set. In Finnish, the bucket is called{" "}
             <strong>kiulu</strong> (sometimes <em>saavi</em>) and the ladle is{" "}
             <strong>kauha</strong>. Together, they are your tools for creating{" "}
-            <em>loyly</em> &mdash; the steam that rises when you throw water
+            <em>löyly</em> &mdash; the steam that rises when you throw water
             onto the hot sauna stones.
           </p>
           <p>
@@ -174,7 +174,7 @@ export default function SaunaAccessoriesPage() {
           </p>
           <p>
             A <strong>hygrometer</strong> measures humidity and is just as
-            important as the thermometer. The magic of loyly is in the balance
+            important as the thermometer. The magic of löyly is in the balance
             between temperature and humidity. A dry 90&deg;C feels completely
             different from a humid 90&deg;C after a generous throw of water.
             Understanding this balance will help you dial in your perfect sauna

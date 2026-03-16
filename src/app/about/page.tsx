@@ -44,7 +44,7 @@ export default function AboutPage() {
         </p>
         <p>
           We grew up with the sound of water hitting hot stones. We know the
-          exact right moment to throw loyly. We have made vihta from birch
+          exact right moment to throw löyly. We have made vihta from birch
           branches in June and frozen them for December. We have sat in silence
           with strangers and come out feeling like friends. We have jumped from
           a 90-degree sauna into a frozen lake and laughed about it.
@@ -102,13 +102,13 @@ export default function AboutPage() {
           Why &quot;Finnish Sauna Guide&quot;?
         </h2>
         <p>
-          <strong>Loyly</strong> is the Finnish word for the steam that rises
+          <strong>Löyly</strong> is the Finnish word for the steam that rises
           when you throw water on sauna stones. It is pronounced roughly like
-          &quot;lur-lu&quot; (the &ouml; sound does not exist in English). Loyly
+          &quot;Low-lu&quot; (the &ouml; sound does not exist in English). Löyly
           is the soul of the sauna — without it, you just have a hot room.
         </p>
         <p>
-          We chose this name because loyly captures everything we love about
+          We chose this name because löyly captures everything we love about
           sauna: the ritual, the sensation, the connection between heat and
           water, and the moment when everything else fades away.
         </p>

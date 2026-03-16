@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h3
               className="text-lg text-white mb-3"
-              style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+              style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
             >
               Finnish Sauna Guide
             </h3>
@@ -77,6 +77,22 @@ export function Footer() {
                   className="hover:text-white transition-colors"
                 >
                   Best Saunas in the World
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/faq"
+                  className="hover:text-white transition-colors"
+                >
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/glossary"
+                  className="hover:text-white transition-colors"
+                >
+                  Sauna Glossary
                 </Link>
               </li>
             </ul>

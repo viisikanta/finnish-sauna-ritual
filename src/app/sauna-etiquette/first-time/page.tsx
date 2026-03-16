@@ -7,7 +7,7 @@ import { AdSlot } from "@/components/AdSlot";
 export const metadata: Metadata = {
   title: "First Time in a Finnish Sauna — Complete Guide",
   description:
-    "Everything you need to know about your first time in a Finnish sauna. Nudity, temperature, loyly, birch whisks, cooling down and step-by-step instructions from a Finn.",
+    "Everything you need to know about your first time in a Finnish sauna. Nudity, temperature, löyly, birch whisks, cooling down and step-by-step instructions from a Finn.",
   keywords: [
     "first time finnish sauna",
     "first time sauna",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "what to expect finnish sauna",
     "sauna nudity",
     "sauna for beginners",
-    "loyly",
+    "löyly",
     "vihta",
     "birch whisk sauna",
     "finnish sauna rules",
@@ -125,7 +125,7 @@ export default function FirstTimeSaunaPage() {
             from wet heat. At 80&deg;C with low humidity, the air feels warm and
             enveloping rather than suffocating. When someone throws water on the
             stones, the humidity spikes momentarily and the heat intensifies.
-            That is <em>loyly</em>, and it is the heart of the whole experience.
+            That is <em>löyly</em>, and it is the heart of the whole experience.
           </p>
 
           {/* The Big Question */}
@@ -188,7 +188,7 @@ export default function FirstTimeSaunaPage() {
               intense at first but will become comfortable as your skin warms up.
             </li>
             <li>
-              <strong>Someone will throw loyly &mdash; breathe calmly.</strong>{" "}
+              <strong>Someone will throw löyly &mdash; breathe calmly.</strong>{" "}
               When water hits the stones, you will hear a satisfying hiss, and a
               wave of humid heat will roll over you. It can feel like a wall of
               warmth. Breathe through your mouth if the nose feels too hot. The
@@ -226,21 +226,21 @@ export default function FirstTimeSaunaPage() {
 
           <AdSlot />
 
-          {/* Loyly Explained */}
+          {/* Löyly Explained */}
           <h2 style={{ fontFamily: "var(--font-serif)" }}>
-            Loyly: The Soul of the Sauna
+            Löyly: The Soul of the Sauna
           </h2>
           <p>
-            <em>Loyly</em> (löyly, pronounced roughly &quot;lur-lu&quot;) is the
+            <em>Löyly</em> (löyly, pronounced roughly &quot;Low-lu&quot;) is the
             steam that rises when you pour water over the hot stones. The word
             has no direct translation in English because the concept does not
-            exist in the same way anywhere else. Loyly is not just steam &mdash;
+            exist in the same way anywhere else. Löyly is not just steam &mdash;
             it is the atmosphere, the feeling, the quality of heat in the sauna.
-            Good loyly is soft, enveloping, and gentle. Bad loyly is sharp,
+            Good löyly is soft, enveloping, and gentle. Bad löyly is sharp,
             stinging, and harsh.
           </p>
           <p>
-            To throw loyly, use the wooden ladle (<em>kiulu</em>) to scoop water
+            To throw löyly, use the wooden ladle (<em>kiulu</em>) to scoop water
             from the bucket and pour it gently over the stones. Do not dump a
             full ladle all at once unless you want a blast of heat that will make
             everyone on the top bench gasp. Start with a small amount. The
@@ -248,7 +248,7 @@ export default function FirstTimeSaunaPage() {
             moist air will fill the room.
           </p>
           <p>
-            The etiquette is simple: always ask before throwing loyly, especially
+            The etiquette is simple: always ask before throwing löyly, especially
             if there are others in the sauna. A gentle &quot;Saako
             heittää?&quot; (&quot;May I throw?&quot;) is all it takes. If
             someone says no, respect it. If you are alone, throw as much or as
@@ -341,7 +341,7 @@ export default function FirstTimeSaunaPage() {
                 <td>Sit directly on the wooden bench</td>
               </tr>
               <tr>
-                <td>Ask before throwing loyly</td>
+                <td>Ask before throwing löyly</td>
                 <td>Dump a full ladle without warning</td>
               </tr>
               <tr>
@@ -447,7 +447,7 @@ export default function FirstTimeSaunaPage() {
             "@type": "Article",
             headline: "Your First Finnish Sauna — Complete Guide",
             description:
-              "Everything you need to know about your first time in a Finnish sauna, from nudity norms to loyly etiquette to the post-sauna ritual.",
+              "Everything you need to know about your first time in a Finnish sauna, from nudity norms to löyly etiquette to the post-sauna ritual.",
             author: {
               "@type": "Organization",
               name: "Finnish Sauna Guide",

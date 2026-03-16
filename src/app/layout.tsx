@@ -13,7 +13,7 @@ const inter = Inter({
 const notoSerif = Noto_Serif_Display({
   variable: "--font-noto-serif",
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "sauna accessories",
     "best saunas",
     "sauna hat",
-    "loyly",
+    "löyly",
     "sauna guide",
   ],
   metadataBase: new URL("https://finnishsaunaguide.com"),

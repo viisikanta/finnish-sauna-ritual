@@ -13,7 +13,7 @@ export default function HomePage() {
           </p>
           <h1
             className="text-4xl md:text-[3.5rem] text-[var(--color-foreground)] mb-6"
-            style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+            style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
           >
             The steam should not bite.
             <br />
@@ -44,16 +44,16 @@ export default function HomePage() {
       {/* Divider */}
       <div className="max-w-16 mx-auto border-t border-[var(--color-steam)]" />
 
-      {/* Loyly explanation */}
+      {/* Löyly explanation */}
       <section className="max-w-2xl mx-auto px-4 py-20 text-center">
         <h2
           className="text-2xl md:text-3xl text-[var(--color-foreground)] mb-6"
-          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
         >
-          Loyly
+          Löyly
         </h2>
         <p className="text-xs uppercase tracking-[0.15em] text-[var(--color-birch)] mb-6 font-medium">
-          / lur-lu / &mdash; Finnish
+          / Low-lu / &mdash; Finnish
         </p>
         <p className="text-[var(--color-stone)] leading-[1.9] mb-4">
           The steam that rises when water meets hot stones. In Finland,
@@ -76,7 +76,7 @@ export default function HomePage() {
         </p>
         <h2
           className="text-2xl md:text-3xl text-[var(--color-foreground)] text-center mb-12"
-          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
         >
           Knowledge, distilled
         </h2>
@@ -84,7 +84,7 @@ export default function HomePage() {
           <ContentCard
             tag="Etiquette"
             title="Sauna Etiquette"
-            description="How to behave in a sauna. Nudity norms, loyly etiquette, and country-specific customs explained with clarity."
+            description="How to behave in a sauna. Nudity norms, löyly etiquette, and country-specific customs explained with clarity."
             href="/sauna-etiquette"
           />
           <ContentCard
@@ -138,7 +138,7 @@ export default function HomePage() {
               <div key={stat.label}>
                 <p
                   className="text-2xl md:text-3xl text-[var(--color-foreground)]"
-                  style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+                  style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
                 >
                   {stat.number}
                 </p>
@@ -158,7 +158,7 @@ export default function HomePage() {
         </p>
         <h2
           className="text-2xl md:text-3xl text-[var(--color-foreground)] mb-6"
-          style={{ fontFamily: "var(--font-serif)", fontWeight: 300 }}
+          style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
         >
           We are not selling hardware.
           <br />

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "best saunas in Finland",
     "Helsinki saunas",
     "Tampere saunas",
-    "Loyly Helsinki",
+    "Löyly Helsinki",
     "Finnish smoke sauna",
     "Kotiharjun sauna",
     "sauna capital Finland",
@@ -101,7 +101,7 @@ export default function FinlandSaunasPage() {
         </h2>
 
         <div className="prose max-w-none space-y-10">
-          {/* Loyly */}
+          {/* Löyly */}
           <div className="border-l-4 border-[var(--color-warm-300)] pl-6">
             <h3 className="text-xl font-bold text-[var(--color-cedar)] mb-2">
               Löyly Helsinki
