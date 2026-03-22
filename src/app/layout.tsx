@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     "sauna guide",
   ],
   metadataBase: new URL("https://finnishsaunaguide.com"),
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
