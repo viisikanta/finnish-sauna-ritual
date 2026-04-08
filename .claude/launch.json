@@ -2,11 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "loyly-house",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["next", "dev"],
-      "port": 8080,
-      "autoPort": true
+      "name": "dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/marjakonttinen/Documents/Claude/finnish-sauna-ritual", "run", "dev", "--", "--port", "3001"],
+      "port": 3001
     }
   ]
 }

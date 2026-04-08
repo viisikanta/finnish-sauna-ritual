@@ -301,11 +301,11 @@ export default function SaunaEtiquettePage() {
             name: "Sauna Etiquette Guide",
             description:
               "Complete sauna etiquette guide covering universal rules, nudity norms, löyly etiquette and country-specific guides.",
-            url: "https://finnishsaunaguide.com/sauna-etiquette",
+            url: "https://www.finnishsaunaguide.com/sauna-etiquette",
             isPartOf: {
               "@type": "WebSite",
               name: "Finnish Sauna Guide",
-              url: "https://finnishsaunaguide.com",
+              url: "https://www.finnishsaunaguide.com",
             },
           }),
         }}

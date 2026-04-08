@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "löyly",
     "sauna guide",
   ],
-  metadataBase: new URL("https://finnishsaunaguide.com"),
+  metadataBase: new URL("https://www.finnishsaunaguide.com"),
   alternates: {
     canonical: "./",
   },
@@ -41,7 +41,19 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Finnish Sauna Guide",
-    url: "https://finnishsaunaguide.com",
+    url: "https://www.finnishsaunaguide.com",
+    images: [
+      {
+        url: "/images/modern-finnish-sauna-lake-view.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Finnish Sauna Guide — Authentic sauna culture, etiquette and accessories",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/modern-finnish-sauna-lake-view.jpg"],
   },
   robots: {
     index: true,

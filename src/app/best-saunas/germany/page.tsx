@@ -33,16 +33,16 @@ export default function GermanySaunasPage() {
     author: {
       "@type": "Organization",
       name: "Finnish Sauna Guide",
-      url: "https://finnishsaunaguide.com",
+      url: "https://www.finnishsaunaguide.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Finnish Sauna Guide",
-      url: "https://finnishsaunaguide.com",
+      url: "https://www.finnishsaunaguide.com",
     },
     datePublished: "2025-10-01",
     dateModified: "2026-03-15",
-    mainEntityOfPage: "https://finnishsaunaguide.com/best-saunas/germany",
+    mainEntityOfPage: "https://www.finnishsaunaguide.com/best-saunas/germany",
   };
 
   return (

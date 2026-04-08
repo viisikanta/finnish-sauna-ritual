@@ -356,7 +356,7 @@ export default function GlossaryPage() {
             name: "Finnish Sauna Glossary",
             description:
               "A glossary of essential Finnish sauna terms — from löyly and kiuas to vihta and vilvoittelu.",
-            url: "https://finnishsaunaguide.com/glossary",
+            url: "https://www.finnishsaunaguide.com/glossary",
             hasDefinedTerm: [
               {
                 "@type": "DefinedTerm",
@@ -452,7 +452,7 @@ export default function GlossaryPage() {
             isPartOf: {
               "@type": "WebSite",
               name: "Finnish Sauna Guide",
-              url: "https://finnishsaunaguide.com",
+              url: "https://www.finnishsaunaguide.com",
             },
           }),
         }}

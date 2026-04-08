@@ -51,13 +51,13 @@ export async function POST(request: NextRequest) {
           </ul>
           <p>In the meantime, check out our most popular guides:</p>
           <ul>
-            <li><a href="https://finnishsaunaguide.com/sauna-etiquette/first-time" style="color: #2c5f7c;">Your First Finnish Sauna</a></li>
-            <li><a href="https://finnishsaunaguide.com/sauna-accessories" style="color: #2c5f7c;">Essential Sauna Accessories</a></li>
-            <li><a href="https://finnishsaunaguide.com/best-saunas" style="color: #2c5f7c;">Best Saunas in the World</a></li>
+            <li><a href="https://www.finnishsaunaguide.com/sauna-etiquette/first-time" style="color: #2c5f7c;">Your First Finnish Sauna</a></li>
+            <li><a href="https://www.finnishsaunaguide.com/sauna-accessories" style="color: #2c5f7c;">Essential Sauna Accessories</a></li>
+            <li><a href="https://www.finnishsaunaguide.com/best-saunas" style="color: #2c5f7c;">Best Saunas in the World</a></li>
           </ul>
           <p style="color: #6b6b6b; font-size: 14px; margin-top: 30px;">
             You are receiving this because you signed up at finnishsaunaguide.com.<br/>
-            <a href="https://finnishsaunaguide.com" style="color: #2c5f7c;">Finnish Sauna Guide</a>
+            <a href="https://www.finnishsaunaguide.com" style="color: #2c5f7c;">Finnish Sauna Guide</a>
           </p>
         </div>
       `,

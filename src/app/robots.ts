@@ -32,6 +32,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://finnishsaunaguide.com/sitemap.xml",
+    sitemap: "https://www.finnishsaunaguide.com/sitemap.xml",
   };
 }

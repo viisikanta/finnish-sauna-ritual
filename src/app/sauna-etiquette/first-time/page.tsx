@@ -463,16 +463,16 @@ export default function FirstTimeSaunaPage() {
             author: {
               "@type": "Organization",
               name: "Finnish Sauna Guide",
-              url: "https://finnishsaunaguide.com",
+              url: "https://www.finnishsaunaguide.com",
             },
             publisher: {
               "@type": "Organization",
               name: "Finnish Sauna Guide",
-              url: "https://finnishsaunaguide.com",
+              url: "https://www.finnishsaunaguide.com",
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://finnishsaunaguide.com/sauna-etiquette/first-time",
+              "@id": "https://www.finnishsaunaguide.com/sauna-etiquette/first-time",
             },
           }),
         }}

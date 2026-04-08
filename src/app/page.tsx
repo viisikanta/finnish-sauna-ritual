@@ -28,10 +28,16 @@ export default function HomePage() {
               className="text-4xl md:text-[3.5rem] text-white mb-6 drop-shadow-sm"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
             >
-              The steam should not bite.
+              The Complete Guide to
               <br />
-              It should embrace.
+              Finnish Sauna Culture
             </h1>
+            <p
+              className="text-lg md:text-xl text-white/70 italic mb-2"
+              style={{ fontFamily: "var(--font-serif)" }}
+            >
+              The steam should not bite. It should embrace.
+            </p>
             <p className="text-base md:text-lg text-white/80 max-w-xl mx-auto mb-10 leading-relaxed">
               Finnish Sauna Guide is the definitive resource for mastering sauna
               culture. Etiquette, accessories, and the finest saunas worldwide.
@@ -212,7 +218,7 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Finnish Sauna Guide",
-            url: "https://finnishsaunaguide.com",
+            url: "https://www.finnishsaunaguide.com",
             description:
               "The definitive guide to Finnish sauna culture. Etiquette, accessories, and the finest saunas worldwide.",
           }),

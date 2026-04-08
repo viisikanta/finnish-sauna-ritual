@@ -145,7 +145,7 @@ export default function AboutPage() {
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Finnish Sauna Guide",
-            url: "https://finnishsaunaguide.com",
+            url: "https://www.finnishsaunaguide.com",
             description:
               "Authentic Finnish sauna guides, etiquette, accessories and the best saunas worldwide.",
             foundingDate: "2026",
